@@ -25,8 +25,8 @@ function setup() {
 function draw() {
   console.log("activated?" + activated);
   if(activated){
-    startr = 35*noise(t+6)+220;
-    startg = 35*noise(t+20)+220;
+    startr = 33*noise(t+6)+220;
+    startg = 34*noise(t+20)+220;
     startb = 35*noise(t+1)+220;
     r = 255-200*noise(t);
     g = 255-210*noise(t+9);
