@@ -1,5 +1,5 @@
 var canvas;
-var radius = 70;
+var radius = 40;
 var startr = 245;
 var startg = 230;
 var startb = 170;
