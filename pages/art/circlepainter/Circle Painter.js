@@ -19,14 +19,14 @@ function setup() {
   textAlign(CENTER);
   textSize(24);
   fill(200,180,180);
-  text('Press SPACE to save drawing and RETURN to clear drawing.',0.1*width, height*0.48, 0.8*width, height);
+  text('press RETURN to save drawing, SPACE to clear',0.1*width, height*0.48, 0.8*width, height);
 }
 
 function draw() {
   console.log("activated?" + activated);
   if(activated){
-    startr = 33*noise(t+6)+220;
-    startg = 34*noise(t+20)+220;
+    startr = 35*noise(t+6)+220;
+    startg = 35*noise(t+20)+220;
     startb = 35*noise(t+1)+220;
     r = 255-200*noise(t);
     g = 255-210*noise(t+9);
@@ -67,9 +67,9 @@ function mouseReleased(){
   activated = false;
 }
 function keyPressed(){
-  if(key === ' '){
-      save(canvas, 'Circle Painter.jpg');
-  }else if(keyCode===RETURN) {
+  if(keyCode===RETURN){
+      save(canvas, 'squishy.jpg');
+  }else if(key === ' ') {
     background(240,230,230);
   }
 }
