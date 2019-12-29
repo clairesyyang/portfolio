@@ -7,6 +7,7 @@ var whichParticleIsGrabbed = -1;
 
 var windowBG;
 var ledgeFG;
+  ledgeFG = loadImage("ledge.svg");
 
 var wingR;
 var wingL;
