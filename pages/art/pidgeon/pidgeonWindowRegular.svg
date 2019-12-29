@@ -4,7 +4,10 @@
     <title>pidgeonWindow</title>
     <desc>Created with Sketch.</desc>
     <defs>
-
+        <linearGradient x1="58.9192271%" y1="115.129485%" x2="58.9192271%" y2="55.9968171%" id="linearGradient-1">
+            <stop stop-color="#D9744D" offset="0%"></stop>
+            <stop stop-color="#C2552B" offset="100%"></stop>
+        </linearGradient>
         <linearGradient x1="50%" y1="0%" x2="100%" y2="52.4629667%" id="linearGradient-2">
             <stop stop-color="#D9744D" offset="0%"></stop>
             <stop stop-color="#C2552B" offset="100%"></stop>
@@ -32,14 +35,7 @@
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <path d="M0.569623745,14.8633663 L64.3674832,14.8633663" id="path-8"></path>
-        <filter x="-13.9%" y="-211.9%" width="127.7%" height="645.0%" filterUnits="objectBoundingBox" id="filter-9">
-            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feMorphology radius="1.5" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
-            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
-            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+       
         </filter>
         <path d="M0.569623745,29.1762376 L64.3674832,29.1762376" id="path-10"></path>
         <filter x="-13.9%" y="-211.9%" width="127.7%" height="645.0%" filterUnits="objectBoundingBox" id="filter-11">
