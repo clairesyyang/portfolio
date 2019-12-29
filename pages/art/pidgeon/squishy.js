@@ -16,7 +16,7 @@ function setup() {
   createCanvas(windowWidth*0.99,windowHeight*0.86);
   createParticles(); 
   createSpringMeshConnectingParticles(); 
-  windowBG = loadImage("pidgeonWindow.svg"); 
+  windowBG = loadImage("pidgeonWindowRegular.svg"); 
   ledgeFG = loadImage("ledge.svg");
   frameRate(30);
   wingR = loadImage("wingR.svg"); 
