@@ -139,7 +139,7 @@ function draw() {
     }else if(i==14){//draw wings
 
       //face is drawn:
-      fill(138, 221, 24);
+      fill(250, 211,57);
       ellipse(mouthx, mouthy, 4,5);
       fill(0);
       ellipse(mouthx-9,mouthy-5,5,4);
