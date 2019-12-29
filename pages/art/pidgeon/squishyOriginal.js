@@ -1,6 +1,6 @@
 var myParticles = [];
 var mySprings = [];
-var ledgeActivated = true;
+var ledgeActivated = false;
 var ledgeHeight;
 // The index in the particle array, of the one the user has clicked.
 var whichParticleIsGrabbed = -1;
@@ -15,7 +15,6 @@ function setup() {
   createCanvas(windowWidth*0.99,windowHeight*0.86);
   createParticles(); 
   createSpringMeshConnectingParticles(); 
-  ledgeFG = loadImage("ledge.svg");
 
   wingR = loadImage("wingR.svg"); 
   wingL = loadImage("wingL.svg"); 
@@ -82,7 +81,7 @@ function mousePressed() {
     }
   }
   if(mouseY<ledgeHeight && mouseX<width/2+41 && mouseX>width/2-260){
-    ledgeActivated = true;
+    ledgeActivated = false;
   }else{
     ledgeActivated = false;
   }
