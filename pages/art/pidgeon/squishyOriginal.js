@@ -17,7 +17,6 @@ function setup() {
   createParticles(); 
   createSpringMeshConnectingParticles(); 
   
-  ledgeFG = loadImage("ledge.svg");
 
   wingR = loadImage("wingR.svg"); 
   wingL = loadImage("wingL.svg"); 
