@@ -5,24 +5,24 @@
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="58.9192271%" y1="115.129485%" x2="58.9192271%" y2="55.9968171%" id="linearGradient-1">
-            <stop stop-color="#D9744D" offset="0%"></stop>
-            <stop stop-color="#C2552B" offset="100%"></stop>
+            <stop stop-color="#A9957B" offset="0%"></stop>
+            <stop stop-color="#B68C79" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="50%" y1="0%" x2="100%" y2="52.4629667%" id="linearGradient-2">
-            <stop stop-color="#D9744D" offset="0%"></stop>
-            <stop stop-color="#C2552B" offset="100%"></stop>
+            <stop stop-color="#A9957B" offset="0%"></stop>
+            <stop stop-color="#B68C79" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
-            <stop stop-color="#D9744D" offset="0%"></stop>
-            <stop stop-color="#F1A486" offset="100%"></stop>
+            <stop stop-color="#A9957B" offset="0%"></stop>
+            <stop stop-color="#F1B686" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="62.215977%" y1="23.8621038%" x2="33.6881129%" y2="117.245448%" id="linearGradient-4">
-            <stop stop-color="#C2552B" offset="0%"></stop>
-            <stop stop-color="#D9744D" offset="100%"></stop>
+            <stop stop-color="#B68C79" offset="0%"></stop>
+            <stop stop-color="#A9957B" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="32.1215034%" y1="116.946224%" x2="32.1215034%" y2="30.2048213%" id="linearGradient-5">
-            <stop stop-color="#D9744D" offset="0%"></stop>
-            <stop stop-color="#C2552B" offset="100%"></stop>
+            <stop stop-color="#A9957B" offset="0%"></stop>
+            <stop stop-color="#B68C79" offset="100%"></stop>
         </linearGradient>
         <path d="M0.569623745,1.65148515 L64.3674832,1.65148515" id="path-6"></path>
         <filter x="-13.9%" y="-211.9%" width="127.7%" height="645.0%" filterUnits="objectBoundingBox" id="filter-7">
