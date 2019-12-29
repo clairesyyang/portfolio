@@ -7,8 +7,6 @@ var whichParticleIsGrabbed = -1;
 
 var windowBG;
 var ledgeFG;
-windowBG = loadImage("pidgeonWindowRegular.svg");
-  ledgeFG = loadImage("ledge.svg");
 
 var wingR;
 var wingL;
@@ -19,7 +17,10 @@ function setup() {
   createParticles(); 
   createSpringMeshConnectingParticles(); 
   
-
+  
+  
+  
+  ledgeFG = loadImage("ledge.svg");
   wingR = loadImage("wingR.svg"); 
   wingL = loadImage("wingL.svg"); 
   ledgeHeight = height/2.2+203;
