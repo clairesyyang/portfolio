@@ -7,6 +7,7 @@ var whichParticleIsGrabbed = -1;
 
 var windowBG;
 var ledgeFG;
+windowBG = loadImage("pidgeonWindowRegular.svg");
   ledgeFG = loadImage("ledge.svg");
 
 var wingR;
