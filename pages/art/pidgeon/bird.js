@@ -89,7 +89,7 @@ function mousePressed() {
  
  
 function draw() {
-  background (255,222,89);
+  background (138, 221, 242);
   imageMode(CENTER);
   var mouthx;
   var mouthy;
