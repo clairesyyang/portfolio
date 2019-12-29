@@ -89,7 +89,7 @@ function mousePressed() {
  
  
 function draw() {
-  background (252,217,38);
+  background (255,222,89);
   imageMode(CENTER);
   var mouthx;
   var mouthy;
@@ -140,7 +140,7 @@ function draw() {
     }else if(i==14){//draw wings
 
       //face is drawn:
-      fill(255,180,150);
+      fill(255, 222, 89);
       ellipse(mouthx, mouthy, 4,5);
       fill(0);
       ellipse(mouthx-9,mouthy-5,5,4);
