@@ -297,7 +297,30 @@
                             <use id="Path-22-Copy" stroke="none" fill="#CDDECE" fill-rule="evenodd" xlink:href="#path-37"></use>
                             <rect id="Rectangle-4-Copy" stroke="none" fill-opacity="0.0351000001" fill="#8CDBE5" fill-rule="evenodd" style="mix-blend-mode: multiply;" mask="url(#mask-38)" x="143.081761" y="-19.8178218" width="77.0440252" height="156.340594"></rect>
                             <rect id="Rectangle-4-Copy-2" stroke="none" fill-opacity="0.249999985" fill="url(#pattern-39)" fill-rule="evenodd" style="mix-blend-mode: color-burn;" mask="url(#mask-38)" x="0" y="-19.8178218" width="220.125786" height="188.269307"></rect>
-                        </g>
+                        </g><path d="M394.226182,141.485829 L394.226182,475.752444" id="Path-23" stroke="#000000"></path>
+                <polyline id="Path-24" stroke="#979797" stroke-width="0.5" points="189.44686 95.7861386 189.44686 474.493704 393.888684 474.493704"></polyline>
+                <path d="M142.040279,509.126207 C160.290942,511.226403 170.075504,515.505642 171.393966,521.963923 C172.410042,521.963923 252.975219,521.963923 413.0895,521.963923 C414.882321,513.405446 425.336146,509.126207 444.450975,509.126207 C463.565804,509.126207 362.762239,509.126207 142.040279,509.126207 Z" id="Path-25" fill="#585858"></path>
+                <rect id="Rectangle-8" fill="url(#linearGradient-41)" x="188.333333" y="503.152475" width="36.3207547" height="42.9386139"></rect>
+                <rect id="Rectangle-9" fill="#789270" x="199.339623" y="226.80396" width="184.90566" height="11.009901"></rect>
+                <rect id="Rectangle-9" fill="#344244" x="192.735849" y="227.90495" width="198.113208" height="11.009901"></rect>
+                <rect id="Rectangle-8" fill="url(#linearGradient-41)" x="358.930818" y="503.152475" width="36.3207547" height="42.9386139"></rect>
+                <path d="M199.77493,104.552127 L199.77493,227.287794" id="Path-27" stroke="#979797"></path>
+                <path d="M384.175419,104.91769 L384.175419,228.235032" id="Path-28" stroke="#000000"></path>
+                <path d="M384.123827,238.558965 L384.123827,461.82664" id="Path-29" stroke="#000000"></path>
+                <polyline id="Path-30" stroke="#979797" points="199.727637 239.034197 199.727637 460.718123 384.043214 460.718123"></polyline>
+                <polyline id="Path-33" stroke="#979797" stroke-width="0.8" points="509.59445 147.661696 509.59445 296.097525 575.468811 296.097525"></polyline>
+                <polyline id="Path-34" stroke="#979797" points="497.941111 135.189542 588.192684 135.189542 588.192684 309.145978"></polyline>
+                <rect id="Rectangle-11" fill="#4D606E" x="536.132075" y="125.512871" width="12.1069182" height="16.5148515"></rect>
+                <polyline id="Path-35" stroke="#979797" points="536.510417 125.130105 548.824778 125.130105 548.824778 136.384281"></polyline>
+                <rect id="Rectangle-12" fill="#6A1D00" opacity="0.119168931" x="577.283019" y="37.4336634" width="77.7169811" height="30.9707225"></rect>
+                <rect id="Rectangle-12" fill="#6A1D00" opacity="0.119168931" x="497" y="37.4336634" width="77.7169811" height="30.9707225"></rect>
+                <rect id="Rectangle-12" fill="#6A1D00" opacity="0.119168931" x="536" y="70.4336634" width="77.7169811" height="30.9707225"></rect>
+                <rect id="Rectangle-12" fill="#6A1D00" opacity="0.119168931" x="616" y="70.4336634" width="77.7169811" height="30.9707225"></rect>
+                <rect id="Rectangle-12" fill="#6A1D00" opacity="0.119168931" x="707" y="450.433663" width="77.7169811" height="30.9707225"></rect>
+                <rect id="Rectangle-12" fill="#6A1D00" opacity="0.119168931" x="0" y="103.433663" width="77.7169811" height="30.9707225"></rect>
+                <path d="M423.490658,489.412678 L163.489645,489.412678" id="Path-36" stroke="#F0A182" opacity="0.56714221"></path>
+                <polygon id="Combined-Shape" fill="url(#linearGradient-42)" style="mix-blend-mode: color-burn;" points="201 459.592122 201 415.559655 383.485762 396.822125 383.485762 459.592122"></polygon>
+            </g>
                     </g>
                 </g>
                 
