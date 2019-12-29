@@ -1,7 +1,13 @@
 var myParticles = [];
 var mySprings = [];
+var ledgeActivated = true;
+var ledgeHeight;
 // The index in the particle array, of the one the user has clicked.
 var whichParticleIsGrabbed = -1;
+
+var windowBG;
+var ledgeFG;
+
 var wingR;
 var wingL;
 //-------------------------
@@ -10,9 +16,12 @@ function setup() {
   createCanvas(windowWidth*0.99,windowHeight*0.86);
   createParticles(); 
   createSpringMeshConnectingParticles(); 
+  windowBG = loadImage("pidgeonWindow.svg"); 
+  ledgeFG = loadImage("ledge.svg");
 
   wingR = loadImage("wingR.svg"); 
   wingL = loadImage("wingL.svg"); 
+  ledgeHeight = height/2.2+203;
 }
 
 //-------------------------
@@ -74,7 +83,11 @@ function mousePressed() {
       whichParticleIsGrabbed = i;
     }
   }
-
+  if(mouseY<ledgeHeight && mouseX<width/2+41 && mouseX>width/2-260){
+    ledgeActivated = true;
+  }else{
+    ledgeActivated = false;
+  }
 }
  
  
@@ -166,6 +179,13 @@ function draw() {
       ellipse((xValue+myParticles[0].px)/2+5, (yValue+myParticles[1].py)/2,6,18);
     }
   }
+
+  if(ledgeActivated && myParticles[0].py-10<ledgeHeight 
+    && myParticles[1].py-10<ledgeHeight 
+    && myParticles[2].py-10<ledgeHeight){
+    image(ledgeFG,width/2,height/2.2,525,555);
+  }
+
   
 }
 
@@ -241,6 +261,9 @@ var Particle = function Particle() {
         this.vx = abs(this.vx);
       }
       if (this.py >= height){
+        this.vy = abs(this.vy)*-1;
+      }
+      if (ledgeActivated && this.py >= ledgeHeight){
         this.vy = abs(this.vy)*-1;
       }
       if (this.py <= 0){
