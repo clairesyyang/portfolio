@@ -5,7 +5,6 @@ var ledgeHeight;
 // The index in the particle array, of the one the user has clicked.
 var whichParticleIsGrabbed = -1;
 
-var windowBG;
 var ledgeFG;
 
 var wingR;
@@ -16,7 +15,6 @@ function setup() {
   createCanvas(windowWidth*0.99,windowHeight*0.86);
   createParticles(); 
   createSpringMeshConnectingParticles(); 
-  windowBG = loadImage("pidgeonWindowRegular.svg"); 
   ledgeFG = loadImage("ledge.svg");
 
   wingR = loadImage("wingR.svg"); 
@@ -94,7 +92,6 @@ function mousePressed() {
 function draw() {
   background (217,116,77);
   imageMode(CENTER);
-  image(windowBG,width/2,height/2.2,785,555);
   var mouthx;
   var mouthy;
   
