@@ -4,10 +4,7 @@
     <title>pidgeonWindow</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="58.9192271%" y1="115.129485%" x2="58.9192271%" y2="55.9968171%" id="linearGradient-1">
-            <stop stop-color="#D9744D" offset="0%"></stop>
-            <stop stop-color="#C2552B" offset="100%"></stop>
-        </linearGradient>
+
         <linearGradient x1="50%" y1="0%" x2="100%" y2="52.4629667%" id="linearGradient-2">
             <stop stop-color="#D9744D" offset="0%"></stop>
             <stop stop-color="#C2552B" offset="100%"></stop>
