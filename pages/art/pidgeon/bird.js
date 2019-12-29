@@ -121,7 +121,6 @@ function draw() {
 
     push();//create pidgeon shadow
     blendMode(OVERLAY);
-    // fill(194,84,43);
     fill(80,39,0,10);
     noStroke();
     ellipse(xValue-40,yValue+30,radiusOfCircle);
@@ -140,7 +139,7 @@ function draw() {
     }else if(i==14){//draw wings
 
       //face is drawn:
-      fill(255, 222, 89);
+      fill(138, 221, 24);
       ellipse(mouthx, mouthy, 4,5);
       fill(0);
       ellipse(mouthx-9,mouthy-5,5,4);
