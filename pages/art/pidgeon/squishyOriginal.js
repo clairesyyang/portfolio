@@ -16,11 +16,9 @@ function setup() {
   createCanvas(windowWidth*0.99,windowHeight*0.86);
   createParticles(); 
   createSpringMeshConnectingParticles(); 
-  
-  
-  
-  
+  windowBG = loadImage("pidgeonWindow.svg"); 
   ledgeFG = loadImage("ledge.svg");
+
   wingR = loadImage("wingR.svg"); 
   wingL = loadImage("wingL.svg"); 
   ledgeHeight = height/2.2+203;
@@ -146,7 +144,7 @@ function draw() {
     }else if(i==14){//draw wings
 
       //face is drawn:
-      fill(255,232,150);
+      fill(255,180,150);
       ellipse(mouthx, mouthy, 4,5);
       fill(0);
       ellipse(mouthx-9,mouthy-5,5,4);
