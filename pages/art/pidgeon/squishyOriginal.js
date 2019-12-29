@@ -1,13 +1,7 @@
 var myParticles = [];
 var mySprings = [];
-var ledgeActivated = true;
-var ledgeHeight;
 // The index in the particle array, of the one the user has clicked.
 var whichParticleIsGrabbed = -1;
-
-var windowBG;
-var ledgeFG;
-
 var wingR;
 var wingL;
 //-------------------------
@@ -16,12 +10,9 @@ function setup() {
   createCanvas(windowWidth*0.99,windowHeight*0.86);
   createParticles(); 
   createSpringMeshConnectingParticles(); 
-  windowBG = loadImage("pidgeonWindowRegular.svg"); 
-  ledgeFG = loadImage("ledge.svg");
 
   wingR = loadImage("wingR.svg"); 
   wingL = loadImage("wingL.svg"); 
-  ledgeHeight = height/2.2+203;
 }
 
 //-------------------------
