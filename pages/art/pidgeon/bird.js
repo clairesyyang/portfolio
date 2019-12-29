@@ -126,7 +126,7 @@ function draw() {
     ellipse(xValue-40,yValue+30,radiusOfCircle);
     pop();
 
-    from = color(11,57,101);
+    from = color(96,192,240);
     to = color(202,200,222);
     push();
     fill(lerpColor(from, to,i/29),30);
