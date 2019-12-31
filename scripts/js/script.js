@@ -1,7 +1,12 @@
+/*-----------------------------------------------------------------------------------
 
+ 	Script - custom frontend jQuery sfunctions
+ 
+-----------------------------------------------------------------------------------*/
 (function(){
 'use strict';
 
+// REORGANIZE ISOTOPE FUNCTION
 function reorganizeIsotope() {
 	jQuery('.masonry').each(function(){
 		var $container = jQuery(this);
@@ -18,6 +23,8 @@ function reorganizeIsotope() {
 	});
 }
 
+
+// STICKY FOTTER to be finished later...
 function stickyfooter() {
 	var footerHeight = jQuery("footer").height();
 	jQuery("#page-content").css({'minHeight': jQuery(window).height()+'px'});
@@ -210,7 +217,10 @@ jQuery(window).load(function() {
 	});
 		
 	
-
+	
+	/*---------------------------------------------- 
+			R E S P O N S I V E   N A V
+	------------------------------------------------*/
 	jQuery('#main-nav').on("click", "li > a", function() {
 		var thisItem = jQuery(this); 
 		if (thisItem.siblings('ul.submenu').length > 0 && thisItem.siblings('ul.submenu').css('display') === 'none') {
@@ -219,7 +229,10 @@ jQuery(window).load(function() {
 		}
 	});
 	
-
+	
+	/*---------------------------------------------- 
+			O P E N / C L O S E   Filter & Share
+	------------------------------------------------*/
 	jQuery('header').on("click", ".open-filter", function() { 
 		jQuery('#header-filter').addClass('filter-is-open');
 		jQuery('html,body').animate({ scrollTop: jQuery("#"+jQuery(this).data('related-grid')).offset().top-parseInt(jQuery("#header-filter").height(), 10)-100}, 1000, 'easeInOutQuart');
@@ -227,12 +240,15 @@ jQuery(window).load(function() {
 	});
 	jQuery('header').on("click", ".close-filter", function() {  jQuery('#header-filter').removeClass('filter-is-open'); return false; });
 	
-
+	/* share */
 	jQuery('header').on("click", ".open-share", function() { jQuery('#header-share').addClass('share-is-open'); return false; });
 	jQuery('header').on("click", ".close-share", function() {  jQuery('#header-share').removeClass('share-is-open'); return false; });
 	
 	
 	
+	/*---------------------------------------------- 
+				 INLINE VIDEO
+	------------------------------------------------*/
 	jQuery('body').on("click", ".inline-video", function() { 
 		var el = jQuery(this);
 		var type = el.data('type');
