@@ -1,35 +1,5 @@
 
 jQuery(window).load(function() {
-/*---------------------------------------------- 
-	iF I DO A PAGE LOADER OF SOME KIND IT'LL BE HERE
-    THAT I NEED TO H I D E   P A G E   L O A D E R  + S M O O T H   S H O W
-	------------------------------------------------*/
-	// jQuery("#page-loader .page-loader-inner").delay(500).fadeIn(10, function(){
-	// 	jQuery(this).fadeOut(500,function() {
-	// 		jQuery("#page-loader").fadeOut(500);
-	// 	});
-	// });
-});		
-/*------------------FOR THE ATTEMPT AT A FULL PAGE NAVIGATION MODAL---------------------------------------------*/ 	
-// jQuery(document).ready(function($){
-// 	var isLateralNavAnimating = false;
-	
-// 	//open/close lateral navigation
-// 	$('.cd-nav-trigger').on('click', function(event){
-// 		event.preventDefault();
-// 		//stop if nav animation is running 
-// 		if( !isLateralNavAnimating ) {
-// 			if($(this).parents('.csstransitions').length > 0 ) isLateralNavAnimating = true; 
-			
-// 			$('body').toggleClass('navigation-is-open');
-// 			$('.cd-navigation-wrapper').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-// 				//animation is over
-// 				isLateralNavAnimating = false;
-// 			});
-// 		}
-// 	});
-
-// });
 
 
 ! function(a) {
