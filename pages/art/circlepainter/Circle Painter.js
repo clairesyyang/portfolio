@@ -19,7 +19,7 @@ function setup() {
   textAlign(CENTER);
   textSize(24);
   fill(200,180,180);
-  text('Press SPACE to save drawing and RETURN to clear drawing.',0.1*width, height*0.48, 0.8*width, height);
+  text('Press the space bar to clear drawing or start over.',0.1*width, height*0.48, 0.8*width, height);
 }
 
 function draw() {
