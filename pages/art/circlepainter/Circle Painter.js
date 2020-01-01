@@ -19,7 +19,7 @@ function setup() {
   textAlign(CENTER);
   textSize(24);
   fill(200,180,180);
-  text('Press the space bar to save drawing and return bar to clear drawing.',0.1*width, height*0.48, 0.8*width, height);
+  text('Press the space bar to clear drawing.',0.1*width, height*0.48, 0.8*width, height);
 }
 
 function draw() {
@@ -67,8 +67,7 @@ function mouseReleased(){
   activated = false;
 }
 function keyPressed(){
-  if(keyCode===RETURN){
+  if(key === ' '){
       background(240,230,230);
-  }else if(key === ' '){
-      save(canvas, 'squishy.jpg');
+  }
 }
