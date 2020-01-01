@@ -68,8 +68,6 @@ function mouseReleased(){
 }
 function keyPressed(){
   if(key === ' '){
-      save(canvas, 'squishy.jpg');
-  }else if(keyCode===RETURN) {
-    background(240,230,230);
+      background(240,230,230);
   }
 }
